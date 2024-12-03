@@ -43,6 +43,7 @@ int main()
         }
         reports.push_back(reportRow);
     }
+    inputFile.close();
 
     int safeCount = 0;
     for (auto &report : reports)
